@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(to right, #694f5a, #673e84);
+}
+
+header{
+    font-size: 40px;
+    text-align: center;
+    color: #9361f6; /* Cor do texto (verde neon) */
+            text-shadow: 
+                0 0 5px hsla(260, 89%, 67%, 0.37), 
+                0 0 10px #9361f65b, 
+                0 0 20px #9361f650,
+                0 0 40px #9361f650,
+                0 0 60px #9361f669,
+                0 0 80px #9361f631; /* Efeito de brilho */ 
+}
+.container {
+    display: flex; /* Ativa flexbox */
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-left: 50%;
+    width: 700px;
+    height: 370px; /* Altura da tela */
+    background: #673e84;
+    margin-top: -22%; /* Ajusta a posição vertical, se necessário */
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+section img{
+    width: 500px;
+    margin-top: -3%;
+    margin-right: 50px;
+}
+
+footer img{
+    width: 300px;
+    margin-top: -3%;
+}
+footer div{
+    
+    margin-top: -15%;
+    margin-left: 20%;
+    font-size: 40px;
+}
+
+footer h1{
+    margin-top: -15%;
+    margin-left: 37%;
+    font-size: 40px;
+    color: #9361f6; /* Cor do texto (verde neon) */
+            text-shadow: 
+                0 0 5px hsla(260, 89%, 67%, 0.37), 
+                0 0 10px #9361f65b, 
+                0 0 20px #9361f650,
+                0 0 40px #9361f650,
+                0 0 60px #9361f669,
+                0 0 80px #9361f631;
+}
